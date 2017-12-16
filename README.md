@@ -7,7 +7,6 @@ To solve the given problem using Typescript
 
 # Typescript Installation 
 
-# Alt-h2
 For npm users:
 	npm install -g typescript
 
@@ -42,12 +41,13 @@ This will generate main.js & SolveSudoku for you automatically
 # Algorithm
 
 Find row, col of an unassigned cell
-  If there is none, return true
-  For digits from 1 to 9
-    a) If there is no conflict for digit at row,col
-        assign digit to row,col and recursively try fill in rest of grid
-    b) If recursion successful, return true
-    c) Else, remove digit and try another
+		If there is none, return true
+  			For digits from 1 to 9
+    			a) If there is no conflict for digit at row,col
+        			assign digit to row,col and recursively try fill in rest of grid
+    			b) If recursion successful, return true
+   				c) Else, remove digit and try another
+   			
   If all digits have been tried and nothing worked, return false
 
   
