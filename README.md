@@ -1,30 +1,30 @@
 # Sudoku puzzle Solver
 Given a partially filled 9×9 2D array ‘grid[9][9]’, the goal is to assign digits (from 1 to 9) to the empty cells so that every row, column, and subgrid of size 3×3 contains exactly one instance of the digits from 1 to 9.
 
-#Goal
+# Goal
 To solve the given problem using Typescript
 
 
-#Typescript Installation 
+# Typescript Installation 
 
-#Alt-h2
+# Alt-h2
 For npm users:
 	npm install -g typescript
 
-#Compiling Code
-#Alt-h2
+# Compiling Code
+# Alt-h2
 	tsc main.ts
 	tsc SolveSudoku.ts
 This will generate main.js & SolveSudoku for you automatically
 
-#Run Code
-#Alt-h2
+# Run Code
+# Alt-h2
 	node main.js
 
 
 
-#Inside Code
-#Alt-h3
+# Inside Code
+# Alt-h3
 	
 	main.ts
 		Hardcode your suduko problem, 0 represents empty spaces
@@ -40,7 +40,7 @@ This will generate main.js & SolveSudoku for you automatically
 			Like all other Backtracking problems, we can solve Sudoku by one by one assigning numbers to empty cells. Before assigning a number, we check whether it is safe to assign. We basically check that the same number is not present in current row, current column and current 3X3 subgrid. After checking for safety, we assign the number, and recursively check whether this assignment leads to a solution or not. If the assignment doesn’t lead to a solution, then we try next number for current empty cell. And if none of number (1 to 9) lead to solution, we return false.
 
 
-#Algorithm
+# Algorithm
 
 Find row, col of an unassigned cell
   If there is none, return true
