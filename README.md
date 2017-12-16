@@ -40,10 +40,9 @@ This will generate main.js & SolveSudoku for you automatically
 
 # Algorithm
 
-Find row, col of an unassigned cell
-
+	Find row, col of an unassigned cell
 		If there is none, return true
-
+		
   			For digits from 1 to 9
 
     			a) If there is no conflict for digit at row,col
