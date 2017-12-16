@@ -12,19 +12,18 @@ For npm users:
 	npm install -g typescript
 
 # Compiling Code
-# Alt-h2
+
 	tsc main.ts
 	tsc SolveSudoku.ts
 This will generate main.js & SolveSudoku for you automatically
 
 # Run Code
-# Alt-h2
+
 	node main.js
 
 
 
 # Inside Code
-# Alt-h3
 	
 	main.ts
 		Hardcode your suduko problem, 0 represents empty spaces
