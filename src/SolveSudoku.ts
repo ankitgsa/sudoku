@@ -60,4 +60,13 @@ export class Sudoku extends FindUnassignedLocation{
                         return true;
             return false;
             }
+
+            printGrid(grid){
+                for (var row = 0; row < N; row++)
+                {
+                   for (var col = 0; col < N; col++)
+                            console.log(grid[row][col]);
+                    console.log("\n");
+                }
+            }
 }
