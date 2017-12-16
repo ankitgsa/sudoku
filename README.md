@@ -14,7 +14,7 @@ For npm users:
 
 	tsc main.ts
 	tsc SolveSudoku.ts
-This will generate main.js & SolveSudoku for you automatically
+This will generate main.js & SolveSudoku.js for you automatically
 
 # Run Code
 
@@ -22,7 +22,7 @@ This will generate main.js & SolveSudoku for you automatically
 
 
 
-# Inside Code
+# Code
 	
 	main.ts
 		Hardcode your suduko problem, 0 represents empty spaces
