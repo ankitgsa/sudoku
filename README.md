@@ -52,7 +52,7 @@ Find row, col of an unassigned cell
     			b) If recursion successful, return true
 
    				c) Else, remove digit and try another
-
-  If all digits have been tried and nothing worked, return false
+		
+			 If all digits have been tried and nothing worked, return false
 
   
