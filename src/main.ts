@@ -1,5 +1,7 @@
+import { Sudoku } from "./SolveSudoku";
 
-var sudokuGrid =[
+
+var sudokuGrid: number[][] =[
 [3, 0, 6, 5, 0, 8, 4, 0, 0],
 [5, 2, 0, 0, 0, 0, 0, 0, 0],
 [0, 8, 7, 0, 0, 0, 0, 3, 1],
@@ -12,10 +14,8 @@ var sudokuGrid =[
 ];
 
 
-
-  /**  if (SolveSudoku(grid) == true)
-          printGrid(grid);
-    else
-         printf("No solution exists");
-
-         **/
+const a = new Sudoku();
+if(a.solveSudoku(sudokuGrid) == true)
+    a.printGrid(sudokuGrid);
+else
+    console.log("Not possible");
